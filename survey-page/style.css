@@ -1,0 +1,99 @@
+body{
+    background-color: thistle
+}
+.main{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.main-container{
+    background-color: blanchedalmond;
+    padding: 40px;
+    font-size: 30px;
+}
+.main-container > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header{
+    text-align: center;
+    color: white;
+
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: fit-content;
+    filter: blur(99);
+}
+#title{
+    
+}
+header p {
+    font-weight: 600;
+}
+input[type ='text'], input[type='email'], input[type='number'], select {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name-div, .e-mail-div,.number-div, .dropdown-div {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-div, .radio-div, .text-area{
+    
+    margin: 20px;
+}
+.checkbox-div{
+    
+}
+.text-area > textarea{
+    width: 90%;
+    padding: 20px;
+    font-size: 14px;
+
+}
+.submit-div{
+    margin: 20px;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(59, 118, 212);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+input[type='radio'] {
+    size: 2px;
+}
+
+@media (max-width:600px) {
+    .main-container > div {
+        font-size: large;
+       
+    }
+    input {
+        margin: 0px;
+    }
+    input[type ='text'], input[type='email'], input[type='number'], select {
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 10px;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    button{
+        font-size: medium;
+    }
+
+}
