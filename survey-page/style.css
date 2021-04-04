@@ -29,13 +29,11 @@ img{
     height: fit-content;
     filter: blur(99);
 }
-#title{
-    
-}
+
 header p {
     font-weight: 600;
 }
-input[type ='text'], input[type='email'], input[type='number'], select {
+input[type ='name'], input[type='email'], input[type='number'], select {
     font-size: 20px;
     border-radius: 5px;
     padding: 10px;
@@ -53,6 +51,9 @@ input[type ='text'], input[type='email'], input[type='number'], select {
     margin: 20px;
 }
 .checkbox-div{
+    
+}
+.radio-div{
     
 }
 .text-area > textarea{
