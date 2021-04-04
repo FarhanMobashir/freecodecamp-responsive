@@ -254,14 +254,20 @@
      .nav-div{
          display: flex;
          justify-content: center;
+         align-content: center;
          flex-direction: column;
      }
-     #nav-bar{
+     #header-img{
+         padding-right: 40px;
+     }
+     #nav-bars{
          display: flex;
          flex-direction: column;
+         line-height: 0px;
+
      }
      .nav-link{
-         font-size: var(--normal-txt);
+         font-size: 14px;
      }
  }
  
